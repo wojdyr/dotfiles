@@ -1,0 +1,18 @@
+[user]
+	name = Marcin Wojdyr
+	email = wojdyr@gmail.com
+[color]
+	ui = auto
+#[branch]
+#	autosetuprebase = always
+[alias]
+	st = status
+	ci = commit
+	ds = diff --stat
+[blame]
+	date = short
+[push]
+	default = simple
+[diff]
+	wordregex = [[:alnum:]]+|[^[:space:]]
+	submodule = log
